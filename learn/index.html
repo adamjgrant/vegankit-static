@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!-->
+<html class="no-js wf-freightsanspro-i3-active wf-freightsanspro-n4-active wf-active" lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script async="" type="text/javascript" src="index_fichiers/c_002.json"></script><script async="" type="text/javascript" src="index_fichiers/c.json"></script><script src="index_fichiers/ga.js"></script><script src="index_fichiers/api.js" async="" type="text/javascript"></script><script type="text/javascript">
+		var _StatHat = _StatHat || [];
+		_StatHat.push(['_setUser', 'NDc0OCDnt1A_Ee2gBnYb8bzFpm3w']);
+		(function() {
+			var sh = document.createElement('script'); sh.type = 'text/javascript';
+			sh.async = true;
+			sh.src = '//www.stathat.com/javascripts/api.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(sh, s);
+		})();
+	</script>
+
+  <title>VeganKit</title>
+  <meta name="description" content="A comprehensive guide to going vegan">
+    <meta property="og:title" content="VeganKit.com">
+    <meta property="og:url" content="http://vegankit.com">
+    <meta property="og:image" content="apple-touch-icon.png">
+    <meta property="og:site_name" content="VeganKit.com">
+    <meta property="og:description" content="A comprehensive guide to going vegan">
+    <meta name="foo" content="bar">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <script type="text/javascript">
+  	// This works great for everything but the iPad.
+  	var isiPad = navigator.userAgent.match(/iPad/i) != null; 
+		if(!isiPad) {
+			document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">')
+		}
+		
+		//This may work on other tablet devices.
+		var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+		if (width < 861 && width > 760) {
+			document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">')
+		}
+  </script><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"-->
+
+  <link rel="apple-touch-icon" href="http://vegankit.com/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="http://vegankit.com/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://vegankit.com/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://vegankit.com/apple-touch-icon-114x114-precomposed.png">
+  <link rel="icon" type="ico" href="http://vegankit.com/favicon.ico">
+
+  <link rel="stylesheet" href="index_fichiers/kickstrap.css" media="screen">
+  <!-- More ideas for your head here: h5bp.com/d/head-Tips -->
+  
+  <!-- Want to try a different theme?
+  	   If not using LESS compiler: Uncomment below
+       and change to name of desired theme. (See docs) 	-->
+  <!--link type="text/css" rel="stylesheet" href="extras/css/amelia.css" /-->
+  
+  <script type="text/javascript" src="index_fichiers/eej5zxn.js"></script>
+  <style type="text/css">.tk-freight-sans-pro{font-family:"freight-sans-pro",sans-serif;}</style><link href="index_fichiers/d.css" rel="stylesheet"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+  
+
+<body data-twttr-rendered="true" class="grass">
+<div style="display: none;" id="sticky-nav" class="visible-phone">
+	<div class="container">
+		<div class="learn small main"></div>
+		<h1>Knowledge</h1>
+		<h3>Vegan Starter Kit</h3>
+    <div class="span4" style="float:right">
+    	
+    	<a href="http://vegankit.com/"><img class="home-link" src="index_fichiers/divider-left.png"></a>
+    	<a title="Why Vegan" href="http://vegankit.com/why"><div class="why small"></div></a>
+      <a title="Becoming Vegan" href="http://vegankit.com/be"><div class="be small"></div></a>
+      <a title="Food" href="http://vegankit.com/eat"><div class="eat small"></div></a>
+      <a title="Clothing" href="http://vegankit.com/wear"><div class="wear small"></div></a>
+      <a title="Products" href="http://vegankit.com/use"><div class="use small"></div></a>
+      <a title="Knowledge" href="http://vegankit.com/learn"><div class="learn small"></div></a>
+    </div>
+	</div>
+</div>
+
+<div id="sf-wrapper">
+<div id="colorfill"></div> <!-- To horizontally fill in color -->
+<div class="container">
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a target="_blank" href="http://browsehappy.com/">Upgrade to a different browser</a> or <a target="_blank" href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+		<div style="top: -200px;" class="loader offToSide"><img src="index_fichiers/loading.gif"> </div>
+  </header>
+  
+  <div role="main">
+    <div class="row">
+      <div class="span7 adjusted vertical1" id="main-content">
+        <div class="learn white"></div> <h1>Knowledge</h1>
+        <div class="cl"></div>
+        
+        <ul class="navigation unstyled">
+        	<!--h3>Knowledge</h3-->
+        	
+	<li><a href="#speciesism">Speciesism</a></li>
+	<li><a href="#book">Animal Rights Books</a></li>
+	<li><a href="#what-is-abolitionism">What is the Abolitionist Approach?</a></li>
+	<li><a href="#single-issue">Single Issue Campaigns</a></li>
+	<li><a href="#other-issues">Social Justice Issues</a>
+
+        </li></ul>
+        
+        
+        <h2 id="speciesism" class="">Speciesism</h2>
+        <p class="first"><strong>Speciesism is the unfair discrimination of two individuals based on species.</strong>
+ Some species-based discrimination is not unfair--For example, it's 
+perfectly reasonable to give a driver's license to an human but not a 
+nonhuman.</p>
+        <p>However, <strong>species is irrelevant when considering whether or not to exploit a sentient being</strong>. Discriminating between a cow and a human to say it is right to kill one for food but not the other is an example of <em>speciesism</em>.</p>
+        <blockquote class="mini">"Speciesism is morally objectionable 
+because, like racism, sexism, and heterosexism, it links personhood with
+ an irrelevant criterion. <strong>Those who reject speciesism are committed to rejecting racism, sexism, heterosexism</strong>, and other forms of discrimination as well."
+        </blockquote>
+        <p class="author-right">— Gary L Francione</p>
+        <img src="index_fichiers/crab.jpg" class="in-content" alt="crab" height="510" width="637">
+        <br><br>
+        <h3 id="sentience">What is sentience?</h3>
+        <p class="first">Like us, the animals we use for food, clothing, labor, etc. are "sentient."  <strong>They feel pain, fear violence and are highly aware of the world around them</strong>.
+ While we can draw lines between some intellectual differences of humans
+ and other animals, all sentient beings have nerves and a brain.</p><p>That
+ is, a system to consciously understand impulses like touch, pain, and 
+sight in a nervous system.  Whether it be a human, an ape, a cat, or a 
+gerbil, no sentient being has “better” or more advanced nerves.  The 
+animals we use for enjoyment and convenience <strong>have families, desires, and personalities</strong>.
+ They taste food, enjoy the company of others, and value many of the 
+qualities of life we as humans hold sacred in the experience of living. 
+So while we may have some very different cognitive abilities, <strong>what we take from animals by reducing them to our “things” is as devastating to them as it is would be to us.</strong></p>
+        <h2 id="book" class="compensate-anchor">Animal Rights Books</h2>
+
+        <br>
+        <div style="overflow: hidden;" class="hidden-phone twitterBox pull-right">
+	        <iframe title="Embedded Tweet" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-radius: 5px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); position: static; visibility: visible; width: 250px; float: right;" allowfullscreen="" class="twitter-tweet twitter-tweet-rendered" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0" height="0"></iframe>
+        </div>
+        <div data-twttr-id="twttr-sandbox-0" class="visible-phone">
+					<iframe title="Embedded Tweet" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-radius: 5px; margin: 7px auto; border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); position: static; visibility: visible; width: 300px; float: none;" allowfullscreen="" class="twitter-tweet twitter-tweet-rendered" allowtransparency="true" scrolling="no" id="twitter-widget-1" frameborder="0" height="255"></iframe>
+        </div>
+
+			<a target="_blank" href="http://www.amazon.com/Rain-Without-Thunder-Ideology-Movement/dp/1566394619"><h3>Rain Without Thunder: The Ideology of the Animal Rights Movement</h3>
+			<h4>By Gary L. Francione</h4></a>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/Rain-Without-Thunder-Ideology-Movement/dp/1566394619"><img src="index_fichiers/rwt.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">"Are 'animal welfare' supporters 
+indistinguishable from the animal exploiters they oppose? Do reformist 
+measures reaffirm the underlying principles that make animal 
+exploitation possible in the first place? In this provocative book, Gary
+ L. Francione argues that the modern animal rights movement has become 
+indistinguishable from a century-old concern with the welfare of animals
+ that in no way prevents them from being exploited. Francione maintains 
+that advocating humane treatment of animals retains a sense of them as 
+instrumental to human ends. When they are considered dispensable 
+property, he says, they are left fundamentally without 'rights'. Until 
+the seventies, Francione claims, this was the paradigm within which the 
+Animal Rights Movement operated, as demonstrated by laws such as the 
+Federal Humane Slaughter Act of 1958.</p>
+				<p>In this wide-ranging book, Francione takes the reader through the
+ philosophical and intellectual debates surrounding animal welfare to 
+make clear the difference between animal rights and animal welfare. 
+Through case studies such as campaigns against animal shelters, animal 
+laboratories, and the wearing of fur, Francione demonstrates the 
+selectiveness and confusion inherent in reformist programs that target 
+fur, for example, but leave wool and leather alone. The solution to this
+ dilemma, Francione argues, is not in a liberal position that espouses 
+the humane treatment of animals, but in a more radical acceptance of the
+ fundamental inalienability of animal rights. Author note: Gary L. 
+Francione is Professor of Law and Nicholas de B. Katzenbach Scholar of 
+Law at Rutgers University Law School, Newark. He is the co-director of 
+the "Rutgers Animal Rights Law Center" and the author of "Animals, 
+Property, and the Law" (Temple)."</p></dd>
+			</dl>
+
+			<a target="_blank" href="http://www.amazon.com/gp/reader/B0010KRPW0/ref=sib_dp_kd"><h3>Vegan Freak: Being Vegan in a Non-Vegan World</h3>
+			<h4>By Bob and Jenna Torres</h4></a>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B0010KRPW0/ref=sib_dp_kd"><img src="index_fichiers/vf.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">"Curious about veganism? Want to be a vegan? 
+Already a vegan? Just wondering how to be vegan without going insane? In
+ this informative and practical guide on veganism, two seasoned vegans 
+help you love your inner vegan freak. Loaded with tips, advice, stories,
+ and comprehensive lists of resources that no vegan should live without,
+ this book is key to helping you thrive as a happy, healthy, and sane 
+vegan in a decidedly non-vegan world. In this sometimes funny, sometimes
+ irreverent, and sometimes serious guide that's not afraid to tell it 
+like it is, new, long-time, and potential vegans will find: -how to go 
+vegan in 3 weeks or less using the "cold tofu" program; -the arguments 
+for ethical veganism; -how to get along with friends, family, and 
+others, including other vegetarians; -tons of useful and practical tips 
+for surviving the grocery store, restaurants, and dinners with 
+omnivores; -how to respond when people ask you if you "like live on 
+apples and twigs."</p></dd>
+			</dl>
+
+			<a target="_blank" href="http://www.amazon.com/Animals-Persons-Essays-Abolition-Exploitation/dp/0231139519"><h3>Animals as Persons</h3>
+			<h4>By Gary L. Francione</h4></a>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/Animals-Persons-Essays-Abolition-Exploitation/dp/0231139519"><img src="index_fichiers/aap.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">"Virtually all the articles and essays 
+collected here are milestones in the formation of the modern theory of 
+the legal and moral rights of animals. Gary L. Francione knows his 
+philosophy as well as his law and these juridical studies work close to 
+the line where law and philosophy merge. His prose, furthermore, is 
+clear and free of legal jargon. I strongly recommend this collection of 
+important essays. It provides a lucid summary of a significant body of 
+thought on animal rights."<br><br>
+							(Julian H. Franklin, professor emeritus of political philosophy, Columbia University )</p></dd>
+			</dl>
+
+			<div class="cl"></div>
+
+			<a target="_blank" href="http://www.amazon.com/gp/reader/B003Z0CR3K/ref=sib_dp_kd"><h3>Making a Killing</h3>
+			<h4>By Bob Torres</h4></a>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B003Z0CR3K/ref=sib_dp_kd"><img src="index_fichiers/mak.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">Suggest to the average leftist that animals 
+should be part of broader liberation struggles and—once they stop 
+laughing—you'll find yourself casually dismissed. With a focus on labor,
+ property, and the life of commodities, Making a Killing contains key 
+insights into the broad nature of domination, power, and hierarchy. It 
+explores the intersections between human and animal oppressions in 
+relation to the exploitative dynamics of capitalism.</p>
+				<p>Combining nuts-and-bolts Marxist political economy, a pluralistic
+ anarchist critique, as well as a searing assessment of the animal 
+rights movement, Bob Torres challenges conventional anti-capitalist 
+thinking and convincingly advocates for the abolition of animals in 
+industry—and on the dinner plate.
+							Making A Killing is sure to spark wide debate in the animal 
+rights and anarchist movements for years to come.</p></dd>
+			</dl>
+
+			<div class="cl"></div>
+
+			<a target="_blank" href="http://www.amazon.com/gp/reader/B0057UEAW2/ref=sib_dp_kd"><h3>Anthropocentrism and its Moral Discontents</h3>
+			<h4>By Gary Steiner</h4></a>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B0057UEAW2/ref=sib_dp_kd"><img src="index_fichiers/aaid.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">Anthropocentrism and Its Discontents is the 
+first-ever comprehensive examination of views of animals in the history 
+of Western philosophy, from Homeric Greece to the twentieth century.</p>
+
+			<p>In recent decades, increased interest in this area has been 
+accompanied by scholars' willingness to conceive of animal experience in
+ terms of human mental capacities: consciousness, self-awareness, 
+intention, deliberation, and in some instances, at least limited moral 
+agency. This conception has been facilitated by a shift from behavioral 
+to cognitive ethology (the science of animal behavior), and by attempts 
+to affirm the essential similarities between the psychophysical makeup 
+of human beings and animals. </p>
+
+
+			<p>Gary Steiner sketches the terms of the current debates about 
+animals and relates these to their historical antecedents, focusing on 
+both the dominant anthropocentric voices and those recurring voices that
+ instead assert a fundamental kinship relation between human beings and 
+animals. He concludes with a discussion of the problem of balancing the 
+need to recognize a human indebtedness to animals and the natural world 
+with the need to preserve a sense of the uniqueness and dignity of the 
+human individual.</p></dd>
+			</dl>
+
+			<div class="cl"></div>
+
+			<a target="_blank" href="http://www.amazon.com/gp/reader/B005X9AOWM/ref=sib_dp_kd"><h3>The Animal Rights Debate</h3>
+			</a><h4><a target="_blank" href="http://www.amazon.com/gp/reader/B005X9AOWM/ref=sib_dp_kd"></a><a href="http://abolitionistapproach.com/">By Gary Francione</a> and Robert Garner</h4>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B005X9AOWM/ref=sib_dp_kd"><img src="index_fichiers/tard.jpg"></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p class="first">The Animal Rights Debate presents the views of 
+two preeminent thinkers working on a key debate in the study of the 
+moral status of animals-namely, do animals deserve to be treated well 
+while we use them to satisfy our needs and desires, or do animals 
+deserve not to be used to satisfy human desires at all? This is a 
+subject of extremely heated debate in animal studies and society at 
+large, and Gary L. Francione and Robert Garner address it as no others 
+can.</p>
+
+			<p>(Gary Steiner, Bucknell University )</p></dd>
+			</dl>
+			<div class="cl"></div>
+
+	      <h2 id="what-is-abolitionism" class="compensate-anchor">What is the Abolitionist Approach?</h2>
+	      <p class="first"><a target="_blank" href="http://www.abolitionistapproach.com/about/">Abolitionism describes a particular animal rights approach</a>. This is distinguished from other common ideologies in that <strong>it targets <em>use</em> rather than <em>treatment</em>."</strong></p>
+
+<p>You're already familiar with this concept from human slavery. Before slavery was abolished in the United States, <strong>there were "abolitionists" who fought to end slavery, not merely make it "better."</strong></p>
+
+<p>At a time, there was a dominant group which argued we ought to fight 
+for slaves to be treated better. This was either because they believed 
+slavery was justified or that however wrong it was, <strong>complete abolition was not attainable.</strong></p>
+
+
+	<h3>Welfarism in the days of human slavery</h3>
+
+	<ul class="readable">
+		<li><a target="_blank" href="http://quotesonslavery.org/what-you-might-not-see/">The "happy" slaves of the South.</a></li>
+		<li><a target="_blank" href="http://quotesonslavery.org/they-tell-us-also-that-the-slaveholders-of-the-south-are-proverbially-hospitable-kind-and-generous/">Slaveholders of the south are "proverbially hospitable."</a>
+		</li><li><a target="_blank" href="http://quotesonslavery.org/they-know-nothing-of-the-bond-that-unites-the-master-and-servant/">The bond that unites master and servant.</a></li>
+		<li><a target="_blank" href="http://quotesonslavery.org/abolition-spurns-all/">Abolitionism as "fanatical."</a></li>
+		<li><a target="_blank" href="http://quotesonslavery.org/fellow-citizens-an-abolitionist-of-the-most-revolting-character-is-among-you/">An abolitionist among you.</a></li>
+	</ul>
+
+		<p class="first" style="margin-top:15px;"><strong><a href="http://quotesonslavery.org/">Read more at QuotesOnSlavery.com</a></strong></p>
+
+<blockquote class="mini">
+"My scheme was visionary—fanatical—unattainable… But opposition served only to increase my ardor, and confirm my purpose.”
+</blockquote>
+<p class="author-right">— William Lloyd Garrison (July 14, 1830)</p>
+
+<div class="cl"></div>
+
+<p class="first">Of course, we all know the outcome of that political 
+era, but when thinking about this in terms of nonhumans you may look to 
+the welfarist side and think, 'we can't stop animal use overnight.'</p>
+
+<p>It's important to <strong>resist thinking of abolitionism as an "all-or-nothing" approach</strong>. Any significant shift in human culture or politics requires time and gradual change.</p>
+
+<p>While abolitionists want to abolish the use of animals entirely, so 
+too do advocates of any social justices with their campaigns. Anyone who
+ is against murder would like it to be abolished, not just made less 
+painful. However, we wouldn't assume these activists expect murder to be
+ wiped clean overnight!</p>
+
+<ul>
+	<li><a target="_blank" href="http://uvearchives.wordpress.com/category/ten-myths-of-new-welfarism/">More abolitionist myths debunked</a></li>
+	<li><a target="_blank" href="http://www.guardian.co.uk/commentisfree/2010/jan/18/five-fatal-flaws-animal-activism">Five Fatal Flaws of Animal Welfarism</a></li>
+</ul>
+
+<p>Now you may be thinking welfarism is something we can do 
+now--something to use in the meantime before we achieve complete 
+abolition.</p>
+
+<p>Let's clarify one thing first: <a target="_blank" href="http://www.abolitionistapproach.com/what-to-do-on-proposition-2/">Welfarism is no weapon against the animal industry</a>. It's a needed and highly desirable component of raising animals for food because <strong>it ensures an orderly flow of product</strong>. Why wouldn't you want to take care of property you're about to sell?</p>
+
+<blockquote>
+	"Producers can have a <strong>competitive advantage</strong> by applying better animal welfare standards and delivering <strong>high quality goods</strong>."
+</blockquote>
+<p class="author-right">— Animal Welfare Commission Report on the benefit of using "enriched" cages.</p>
+
+<p class="first">Many animal organizations *will point to new welfare 
+practices as if they are their own victories. Suffice it to say, this is
+ great for donations.</p>
+
+<div class="hidden-phone twitterBox" style="margin-right: 10px; float: left; overflow: hidden;">
+	<iframe title="Embedded Tweet" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-radius: 5px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); position: static; visibility: visible; width: 350px; float: left;" allowfullscreen="" class="twitter-tweet twitter-tweet-rendered" allowtransparency="true" scrolling="no" id="twitter-widget-2" frameborder="0" height="0"></iframe>
+	</div>
+<div data-twttr-id="twttr-sandbox-1" class="visible-phone">
+	<iframe title="Embedded Tweet" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-radius: 5px; margin: 7px auto; border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15); position: static; visibility: visible; width: 300px; float: none;" allowfullscreen="" class="twitter-tweet twitter-tweet-rendered" allowtransparency="true" scrolling="no" id="twitter-widget-3" frameborder="0" height="235"></iframe>
+</div>
+
+<p><a target="_blank" href="http://www.abolitionistapproach.com/the-absurdity-of-competing-humane-labels-hsus-v-perdue/">Welfarism is paradoxically very bad for animals</a> as well because <a target="_blank" href="http://m.theage.com.au/victoria/pork-back-in-flavour-as-chefs-put-a-twist-in-little-piggy-tale-20120526-1zc3m.html#ixzz1w15t61DM">it makes the public feel better about exploiting animals</a>. Also, the supposed benefits it gives to animals, (bigger cages, free ranges, painless deaths) are <a target="_blank" href="http://www.peacefulprairie.org/freerange1.html">simply dishonest</a> or marketing doublespeak.</p>
+
+<p>But if welfarism is bogus, <strong>what can we do for animals now?</strong> Simple: vegan education. With every new vegan we have in the world, the demand for animal use is greatly diminished. <a target="_blank" href="http://abolitionistanimalrights.blogspot.com/2009/07/happy-meat-movement-and-animal-welfare.html">There is actually a lot to say about the economics of animal use and how welfarism fails.</a></p>
+
+<p>Yet you may be thinking vegan education is unrealistic. How do you 
+convince someone to go without all the things vegans don't eat? <a target="_blank" href="http://uvearchives.wordpress.com/2012/02/25/creative-non-violent-vegan-advocacy-a-beginners-guide/">Speaking from experience, it's actually much easier than you think</a>. In fact, there are plenty of people in the world ready to go vegan but just need a little push.</p>
+
+	<div class="block hidden-phone">
+		<h3>Gary Francione Debates Erik Marcus</h3>
+		<br>
+        <p class="first">Does animal welfare really help animals? Professor Gary Francione debates author Erik Marcus on the efficacy of welfarism.</p>
+		<audio preload="" controls="controls" src="index_fichiers/francione-marcus.mp3"></audio>
+	</div>
+
+<ul>
+	<li><a target="_blank" href="http://vegan-times.com/2012/05/12/why-vegetarianism-isnt-enough/">Wouldn't it be <strong>better</strong> to promote vegetarianism?</a></li>
+	<li><a target="_blank" href="http://www.abolitionistapproach.com/gateway-arguments/">Wouldn't it be <strong>easier</strong> to promote vegetarianism?</a></li>
+</ul>
+
+<h3>Welfare can't be all that bad can it?</h3>
+
+<iframe style="display: inline;" class="youtube" id="vid0" src="index_fichiers/Z7Gbq3lkKwY.html" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+
+<p class="first">It's understandable to resist throwing out welfarism completely. After all, it's <em>welfarism</em>! What can be so wrong with that?</p>
+
+<p>The more you search for redeemable aspects of welfarism, you'll begin to realize <a target="_blank" href="http://uvearchives.wordpress.com/2007/12/12/property-status-and-animal-welfare-two-deep-roots-of-cruelty-3/">it's not simply that welfarism <em>doesn't</em> work, it <em>cannot work</em>.</a> Welfarism <strong>involves time and money which could otherwise be spent on educating the public on veganism</strong>.</p>
+
+
+    <blockquote class="mini">As long as animals remain the property of 
+humans, and are legally allowed to be used as economic production 
+units—living “machines” who produce eggs, milk, flesh, skin, fur and 
+other bodily parts and secretions for human profit—they will be afforded
+ no significant protection under the law, as the economic interests of 
+the property owner will always trump even the most crucial interests of 
+his or her property.
+	</blockquote>
+	<p class="author-right">— Angel Flinn</p>
+
+    <h2 id="single-issue" class="compensate-anchor">Single Issue Campaigns</h2>
+    <p class="first">You've probably heard of campaigns to end the 
+clubbing of seals or ban fur. These campaigns are based on the idea that
+ fighting these battles are easier, so it's worth spending time battling
+ them as single issues.</p>
+        <p>Although it's indeed unethical to club seals or kill animals for their fur, <strong>these campaigns only tell the public it's more ethical to use one animal over another</strong>, even if that's not what we mean to say.</p>
+        <p>Making matters worse, these campaigns often praise 
+establishments for removing fur from their lineup, even though they 
+still sell leather and wool.</p>
+    <p><a target="_blank" href="http://uvearchives.wordpress.com/2008/10/27/picking-the-low-hanging-fruit-what-is-wrong-with-single-issue-campaigns/"><i class="icon-external-link"></i> Read more about single-issue campaigns.</a></p>
+        <p>Whatever the case, we don't really need single issue 
+campaigns. We can make a more significant impact educating the public 
+about veganism. Good vegan education<strong> leads the public to the kind of thinking needed to shun fur and seal clubbing.</strong></p>
+
+    <h2 id="other-issues" class="compensate-anchor">Social Justice Issues</h2>
+    <p class="first">Are there more important issues to worry about than animal rights? <strong>Shouldn't we be focusing on the issues that affect humans first?</strong></p>
+    <p>Regardless of how you answer this question, understand, there's 
+no reason being a vegan should prevent you from being an activist for 
+any other cause. In fact, the "animal" in "animal rights" does not 
+necessarily mean "nonhuman animal." When we say an animal has the right 
+not to be property, this includes humans as well.</p>
+    <p>Indeed, <strong>an animal rights activist <em>should</em> be concerned with other social justice issues.</strong>
+ Really, at the heart of many social injustices is a recurring theme of 
+treating outgroups as the "other." The injustice of racism happens 
+because we view the "others" as different, so we find it acceptible to 
+use them as our slaves.</p>
+    <p>Women face discrimination because, especially in the eyes of men,
+ they are an "other." Because they are different, it is deemed 
+acceptible to treat them as an inferior and to assume less of their 
+abilities.</p>
+    <p>The same thinking manifests itself in our relationship with 
+nonhumans. While nonhumans do indeed possess some different mental and 
+physical traits from humans, <strong>they want freedom just as much as we do</strong>, yet we do not give this interest the same consideration as we do with fellow humans.</p>
+
+	<img class="in-content" src="index_fichiers/jumpinglamb.jpg" alt="jumpinglamb">
+
+  <blockquote>
+    "Never doubt that a small group of thoughtful, committed citizens 
+can change the world. Indeed, it is the only thing that ever has."
+  </blockquote>
+  <p class="author-right">— Margaret Mead</p>
+
+
+				
+      </div>
+      <div class="span4 vertical1" id="sidebar">
+      	<div class="hidden-phone">
+      		<a class="homelink" href="http://vegankit.com/"><i class="icon-home"></i>  home</a>
+      		<a title="Why Vegan" href="http://vegankit.com/why"><div class="why small active"></div></a>
+        	<a title="Becoming Vegan" href="http://vegankit.com/be"><div class="be small"></div></a>
+        	<a title="Food" href="http://vegankit.com/eat"><div class="eat small"></div></a>
+        	<a title="Clothing" href="http://vegankit.com/wear"><div class="wear small"></div></a>
+        	<a title="Products" href="http://vegankit.com/use"><div class="use small"></div></a>
+        	<a title="Knowledge" href="http://vegankit.com/learn"><div class="learn small"></div></a>
+        </div>
+
+		    
+  <aside>
+    <iframe style="display: inline;" class="youtube" id="vid1" src="index_fichiers/T5pDU1yMWMw.html" allowfullscreen="" frameborder="0"></iframe>
+    <div class="caption">
+      	<h3>I'm Vegan: Gary Francione</h3>
+      	<p class="first">Rutgers Law Professor Gary Francione discusses the history of the animal rights and welfare movement.</p>
+      	<p><em>Prof. Francione's Site: <a href="http://abolitionistapproach.com/">AbolitionistApproach.com</a></em></p>
+    </div>
+  </aside>
+
+  <aside>
+    <img src="index_fichiers/sidebar_image_book.png" alt="">
+    <div class="caption">
+      <h3>Read Samples of Animal Rights Books</h3>
+      <p class="first">Start reading from our suggested books on Animal Rights</p>
+        <div class="clear"></div>
+        <a data-toggle="modal" href="#myModal"><button class="btn btn-primary"><i class="icon-star icon-large"></i> View Samples</button></a>
+        <!--button class="btn">Learn more</button-->
+     </div>
+  </aside>
+  
+  <aside>
+
+		        <blockquote class="mini">Let’s stop talking about veganism as a
+ matter of compassion, benevolence and other nice-sounding, but 
+ultimately anthropocentric missives. The idea that we are “being kind”, 
+“acting compassionately”, or “saving lives” just by being vegan is 
+misguided. It’s also paternalistic. <strong>Veganism is a matter of justice</strong>,
+ and it reflects the absolute minimum of justice that I owe other 
+persons (human and non). That doesn’t mean we’re not compassionate 
+people. It doesn’t mean we can’t act compassionately toward other 
+animals (human or non). It just means that <strong>veganism is what we owe them. It’s not an act of charity</strong>.</blockquote>
+<p class="author-right">— Vincent J. Guihan</p>
+  </aside>
+
+  <aside> 
+      <iframe style="display: inline;" class="youtube" id="vid2" src="index_fichiers/l08as25vCVc.html" allowfullscreen="true" frameborder="0"></iframe>
+      <div class="caption">
+         <h3>I'm Vegan: Risa</h3>
+         <p class="first">Musician Risa Talks about her experience as a vegan.</p>
+         <!--a target="_blank" href="http://vegandocumentary.com"><button class="btn">Learn more</button></a-->
+      </div>
+   </aside>
+
+  <aside>
+    <iframe style="display: inline;" class="youtube" id="vid4" src="index_fichiers/3DKaSaK0usc.html" allowfullscreen="" frameborder="0"></iframe>
+    <div class="caption">
+      <h3>Vegan Freak Radio</h3>
+      <p class="first">The authors of Vegan Freak, Bob and Jenna Torres, discuss a plethora of vegan topics on their hit (vintage) podcast.</p>
+    <div>
+  </div></div></aside>
+
+  <aside>
+        <iframe style="display: inline;" class="youtube" id="vid5" src="index_fichiers/4dssK8SitDA.html" allowfullscreen="" frameborder="0"></iframe>
+    <div class="caption">
+      <h3>A Discussion on Veganism</h3>
+      <p class="first">Watch our cartoon of two bears in the park talking about animal rights. (From <a href="http://www.facebook.com/LiveVegan">Trisha Roberts</a>)</p>
+    </div>
+  </aside>
+
+  <aside>
+     <iframe style="display: inline;" class="youtube" id="vid6" src="index_fichiers/BwHH6TRvsXw.html" allowfullscreen="" frameborder="0"></iframe>
+  <div class="caption">
+     <h3>Promoting Veganism at School</h3>
+     <p class="first">Clare demonstrates an easy and affordable way to table for veganism at school.</p>
+  </div>
+</aside>
+
+<aside>
+   <img src="index_fichiers/arpamphlet_sized.jpg" alt="">
+    <div class="caption">
+      <h3>Download our free Animal Rights Pamphlet</h3>
+      <p class="first">This two-sided tri-fold pamphlet written by Professor <a href="http://abolitionistapproach.com/">Gary Francione</a> explains the abolitionist approach and why veganism is a moral imperative.</p>
+   <div class="clear"></div>
+   <a href="http://vegankit.com/static/extras/themes/starterkit/downloads/aapamphlet.pdf"><button class="btn btn-primary"><i class="icon-star icon-large"></i> Download</button></a>
+   <a rel="lightbox" href="http://vegankit.com/static/extras/themes/starterkit/img/pamphlet.png"><button class="btn"><i class="icon-picture"></i> Preview</button></a>
+   </div>
+</aside>
+
+<aside>
+  <iframe style="display: inline;" class="youtube" id="vid7" src="index_fichiers/fW8amMCVAJQ.html" allowfullscreen="" frameborder="0"></iframe>
+  <div class="caption">
+     <h3>Leadership Lessons from a Dancing Guy</h3>
+     <p class="first">This video shows us what we can learn about starting a movement from a crazy dancing guy in a park.</p>
+  </div>
+</aside>
+
+<aside>
+        <blockquote class="mini">I urge all advocates for animal rights,
+ all vegans and anyone who cares about nonviolence, justice, morality 
+and respect, and who wants to see an end to oppression, discrimination 
+and slavery, to go vegan, to nonviolently promote veganism unequivocally
+ in everything they say and do as an advocate, and to unequivocally 
+oppose all discrimination, including against our fellow human beings, in
+ everything they say and do and in their actions as a member of their 
+community.
+        </blockquote>
+        <p class="author-right">— Elizabeth Collins</p>
+</aside>
+
+<aside>
+
+			  <h3>Other Great Abolitionist Resources</h3>
+			  <br>
+			  <ul class="unstyled">
+					<li><a title="Visit Abolitionist Animal Rights" href="http://abolitionistanimalrights.blogspot.com/">Abolitionist Animal Rights</a></li>
+					<li><a title="Visit A Candid Hominid" href="http://www.candidhominid.com/">A Candid Hominid</a></li>
+					<li><a title="Visit Adam Kochanowicz – National Vegan Examiner" href="http://www.examiner.com/x-4198-Omaha-Vegan-Examiner" target="_self">Adam Kochanowicz – National Vegan Examiner</a></li>
+					<li><a title="Visit Ánima (English, Portuguese, Spanish)" href="http://www.anima.org.ar/">Ánima</a></li>
+					<li><a title="Animal Emancipation" href="http://animalemancipation.com/">Animal Emancipation</a></li>
+					<li><a title="Visit Boston Vegan Association" href="http://www.bostonvegan.org/">Boston Vegan Association</a></li>
+					<li><a title="Visit Brockway Hall" href="http://brockwayhall.blogspot.com/">Brockway Hall</a></li>
+					<li><a title="Visit California Vegan" href="http://californianvegan.blogspot.com/" target="_self">California Vegan</a></li>
+					<li><a title="Visit Clown's Corner" href="http://clowns-corner.blogspot.com/">Clown's Corner</a></li>
+					<li><a title="Visit Coolwater4animals" href="http://coolwater4animals.wordpress.com/">Coolwater4animals</a></li>
+					<li><a title="Visit The Easy Vegan" href="http://www.toastworks.com/moralmoments/theeasyvegan/home.htm">The Easy Vegan</a></li>
+					<li><a title="Visit For the Animals Sanctuary" href="http://www.farmedanimalfriends.org/blog.html">Farmed Animal Friends</a></li>
+					<li><a title="Visit For the Animals Sanctuary" href="http://www.fortheanimalssanctuary.org/">For the Animals Sanctuary</a></li>
+					<li><a title="Visit Gentle World" href="http://gentleworld.org/">Gentle World</a></li>
+					<li><a title="Visit I'm Vegan: A web-based documentary series" href="http://www.vegandocumentary.com/">I'm Vegan: A web-based documentary series</a></li>
+					<li><a title="Visit La Vegan Exquise" href="http://laveganexquise.blogspot.com/">La Vegan Exquise</a></li>
+					<li><a title="Visit Linda McKenzie's Blog" href="http://lindaamckenzie.blogspot.com/">Linda McKenzie's Blog</a></li>
+					<li><a title="Visit My Face Is On Fire" href="http://my-face-is-on-fire.blogspot.com/">My Face Is On Fire</a></li>
+					<li><a title="Visit New World Dawn" href="http://alethafaye.wordpress.com/">New World Dawn</a></li>
+					<li><a title="Visit NZ Vegan Podcast" href="http://nzveganpodcast.blogspot.com/" target="_self">NZ Vegan Podcast</a></li>
+					<li><a title="Visit Our Vegan Pregnancy" href="http://www.ourveganpregnancy.blogspot.com/" target="_self">Our Vegan Pregnancy</a></li>
+					<li><a title="Visit Peace Advocacy Network" href="http://www.peaceadvocacynetwork.org/">Peace Advocacy Network</a></li>
+					<li><a title="Visit Peaceful Prairie Sanctuary" href="http://www.peacefulprairie.org/">Peaceful Prarie Sanctuary</a></li>
+					<li><a title="Visit Professor Gary Steiner (animal rights philosopher in abolitionist tradition)" href="http://www.facstaff.bucknell.edu/gsteiner">Professor Gary Steiner</a></li>
+					<li><a title="Visit Professor Gary Steiner (animal rights philosopher in abolitionist tradition)" href="http://quotesonslavery.org/">Quotes on Slavery</a></li>
+					<li><a title="Visit Shared Sentience" href="http://etherealblend.com/">Shared Sentience</a></li>
+					<li><a title="Visit Space Vegans" href="http://www.spacevegans.com/">Space Vegans</a></li>
+					<li><a title="Visit The Starting Point is Veganism (English and French)" href="http://thestartingpointisveganism.blogspot.com/">The Starting Point is Veganism</a></li>
+					<li><a title="Visit Truth to Vegan" href="http://truth-to-vegan.blogspot.com/" target="_self">Truth to Vegan</a></li>
+					<li><a title="Visit The Gary Francione Facebook Page" href="https://www.facebook.com/abolitionistapproach">The Gary Francione Facebook Page</a></li>
+					<li><a title="Visit The Unofficial Gary Francione Website" href="http://www.gary-francione.com/">The Unofficial Gary Francione Website</a></li>
+					<li><a title="Unpopular Vegan Essays" href="http://uvearchives.wordpress.com/">Unpopular Vegan Essays</a></li>
+					<li><a title="Visit Vegan Dinners" href="http://vegandinners.blogspot.com/">Vegan Dinners</a></li>
+					<li><a title="Visit Vegan FAQ" href="http://veganfaq.blogspot.com/">Vegan FAQ</a></li>
+					<li><a title="Vegan for Life" href="http://vegan-for-life.blogspot.com/">Vegan For Life</a></li>
+					<li><a title="Visit Vegan.fr (French)" href="http://www.vegan.fr/">Vegan.fr</a></li>
+					<li><a title="Visit VeganImprov" href="http://www.veganimprov.com/">VeganImprov</a></li>
+					<li><a href="http://thevegantruth.blogspot.com/">Veganism: A Truth Whose Time has Come</a></li>
+					<li><a title="Visit Vegan One" href="http://veganone.wordpress.com/">Vegan One</a></li>
+					<li><a title="Visit Veganos pela Abolição" href="http://veganospelaabolicao.org/">Veganos pela Abolição</a></li>
+					<li><a title="Visit Vegan Sanctuary" href="http://vegansanctuary.blogspot.com/">Vegan Sanctuary</a></li>
+					<li><a title="Visit The Vegan Solution" href="http://vegansolution.wordpress.com/">The Vegan Solution</a></li>
+					<li><a title="Visit The Vegan Substitute" href="http://www.thevegansubstitute.com/">The Vegan Substitute</a></li>
+					<li><a title="Visit Veganism for Animal Rights" href="http://veganismforanimalrights.blogspot.com/">Veganism for Animal Rights</a></li>
+					<li><a title="Visit Walking the Vegan Line" href="http://walkingtheveganline.blogspot.com/">Walking the Vegan Line</a></li>
+					<li><a title="Visit We Other Animals" href="http://weotheranimals.blogspot.com/">We Other Animals</a></li>
+					<li><a title="Visit We're All Animals" href="http://planetoftheanimals.blogspot.com/">We're All Animals</a></li>
+				</ul>
+         </aside>
+
+		  <aside>
+		     <iframe style="display: inline;" class="youtube" id="vid8" src="index_fichiers/jRAEgQI9U8I.html" allowfullscreen="" frameborder="0"></iframe>
+		  <div class="caption">
+		     <h3>Animals as Food: The Legal Treatment of Animals in Contemporary Agribusiness and Factory Farming</h3>
+		     <p class="first">Gary L. Francione gives this keynote speech at a DePaul University College of Law event on October 30, 2013.</p>
+
+			<p>Gary L. Francione is Board of Governors Professor, Distinguished 
+Professor of Law &amp; Nicholas deB. Katzenbach Scholar of Law and 
+Philosophy at Rutgers School of Law - Newark. He is one of the most 
+well-known figures in the modern animal rights movement. He is the 
+author/co-author of seven books, most recently with Anna Charlton -- Eat
+ Like You Care: An Examination of the Morality of Eating Animals.</p>
+
+			<p>Professor Francione's Website: www.AbolitionistApproach.com</p>
+
+			<p>Eat Like You Care Website: www.EatLikeYouCareBook.com.</p>
+		  </div>
+		</aside>
+      </div>
+    </div>
+  </div>
+  <div class="cl"></div>
+</div>
+
+<!-- Modal window -->
+
+<div class="modal" id="myModal" style="display:none">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h1>Animal Rights Literature</h1>
+  </div>
+  <div class="modal-body" style="">
+		<!--div id="samples" style="overflow:auto;"-->
+			<h2>Vegan Freak: Being Vegan in a Non-Vegan World</h2>
+			<h4>By Bob and Jenna Torres</h4>
+			<div class="preview">
+				<a class="hidden-phone" href="http://www.amazon.com/gp/reader/B0010KRPW0/ref=sib_dp_kd#reader-link"><img src="index_fichiers/vf.jpg">
+				<button class="btn btn-primary">Read a sample</button></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p>"Curious about veganism? Want to be a vegan? Already a vegan?
+ Just wondering how to be vegan without going insane? In this 
+informative and practical guide on veganism, two seasoned vegans help 
+you love your inner vegan freak. Loaded with tips, advice, stories, and 
+comprehensive lists of resources that no vegan should live without, this
+ book is key to helping you thrive as a happy, healthy, and sane vegan 
+in a decidedly non-vegan world. In this sometimes funny, sometimes 
+irreverent, and sometimes serious guide that's not afraid to tell it 
+like it is, new, long-time, and potential vegans will find: -how to go 
+vegan in 3 weeks or less using the "cold tofu" program; -the arguments 
+for ethical veganism; -how to get along with friends, family, and 
+others, including other vegetarians; -tons of useful and practical tips 
+for surviving the grocery store, restaurants, and dinners with 
+omnivores; -how to respond when people ask you if you "like live on 
+apples and twigs."</p></dd>
+			</dl>
+
+			<h2>Animals as Persons</h2>
+			<h4>By Gary L. Francione</h4>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B004HW671S/ref=sib_dp_kd#reader-link"><img src="index_fichiers/aap.jpg">
+				<button class="btn btn-primary">Read a sample</button></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p>"Virtually all the articles and essays collected here are 
+milestones in the formation of the modern theory of the legal and moral 
+rights of animals. Gary L. Francione knows his philosophy as well as his
+ law and these juridical studies work close to the line where law and 
+philosophy merge. His prose, furthermore, is clear and free of legal 
+jargon. I strongly recommend this collection of important essays. It 
+provides a lucid summary of a significant body of thought on animal 
+rights."<br><br>
+							(Julian H. Franklin, professor emeritus of political philosophy, Columbia University )</p></dd>
+			</dl>
+
+			<h2>Making a Killing</h2>
+			<h4>By Bob Torres</h4>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B003Z0CR3K/ref=sib_dp_kd#reader-link"><img src="index_fichiers/mak.jpg">
+				<button class="btn btn-primary">Read a sample</button></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p>Suggest to the average leftist that animals should be part of
+ broader liberation struggles and—once they stop laughing—you'll find 
+yourself casually dismissed. With a focus on labor, property, and the 
+life of commodities, Making a Killing contains key insights into the 
+broad nature of domination, power, and hierarchy. It explores the 
+intersections between human and animal oppressions in relation to the 
+exploitative dynamics of capitalism.</p>
+				<p>Combining nuts-and-bolts Marxist political economy, a pluralistic
+ anarchist critique, as well as a searing assessment of the animal 
+rights movement, Bob Torres challenges conventional anti-capitalist 
+thinking and convincingly advocates for the abolition of animals in 
+industry—and on the dinner plate.
+							Making A Killing is sure to spark wide debate in the animal 
+rights and anarchist movements for years to come.</p></dd>
+			</dl>
+
+
+			<h2>Anthropocentrism and its Moral Discontents</h2>
+			<h4>By Gary Steiner</h4>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B0057UEAW2/ref=sib_dp_kd#reader-link"><img src="index_fichiers/aaid.jpg">
+				<button class="btn btn-primary">Read a sample</button></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p>Anthropocentrism and Its Discontents is the first-ever 
+comprehensive examination of views of animals in the history of Western 
+philosophy, from Homeric Greece to the twentieth century.</p>
+
+			<p>In recent decades, increased interest in this area has been 
+accompanied by scholars' willingness to conceive of animal experience in
+ terms of human mental capacities: consciousness, self-awareness, 
+intention, deliberation, and in some instances, at least limited moral 
+agency. This conception has been facilitated by a shift from behavioral 
+to cognitive ethology (the science of animal behavior), and by attempts 
+to affirm the essential similarities between the psychophysical makeup 
+of human beings and animals. </p>
+
+
+			<p>Gary Steiner sketches the terms of the current debates about 
+animals and relates these to their historical antecedents, focusing on 
+both the dominant anthropocentric voices and those recurring voices that
+ instead assert a fundamental kinship relation between human beings and 
+animals. He concludes with a discussion of the problem of balancing the 
+need to recognize a human indebtedness to animals and the natural world 
+with the need to preserve a sense of the uniqueness and dignity of the 
+human individual.</p></dd>
+			</dl>
+
+
+			<h2>The Animal Rights Debate</h2>
+			<h4><a href="http://abolitionistapproach.com/">By Gary Francione</a> and Robert Garner</h4>
+			<div class="preview">
+				<a target="_blank" href="http://www.amazon.com/gp/reader/B005X9AOWM/ref=sib_dp_kd#reader-link"><img src="index_fichiers/tard.jpg">
+				<button class="btn btn-primary">Read a sample</button></a>
+			</div>
+			<dl>
+				<dt>About</dt>
+				<dd><p>The Animal Rights Debate presents the views of two preeminent
+ thinkers working on a key debate in the study of the moral status of 
+animals-namely, do animals deserve to be treated well while we use them 
+to satisfy our needs and desires, or do animals deserve not to be used 
+to satisfy human desires at all? This is a subject of extremely heated 
+debate in animal studies and society at large, and Gary L. Francione and
+ Robert Garner address it as no others can.</p>
+
+			<p>(Gary Steiner, Bucknell University )</p></dd>
+			</dl>
+         <script src="index_fichiers/widgets.js" charset="utf-8"></script>
+
+        
+      </div>
+    </div>
+  </div>
+  <div class="cl"></div>
+
+
+
+      
+    
+
+<!-- Secretly loading this so it appears quickly for users on subsequent pages. -->
+<img src="index_fichiers/loading.gif" style="width:1px;height:1px;opacity:0;position:absolute;bottom:0;right:0;">
+
+  
+
+<div class="modal" id="credits" style="display:none">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h4>Credits</h4>
+  </div>
+  <div class="modal-body" style="">
+    <p>Roumain: <a href="http://veganism.ro/">Translated in Romanian by the veganism.ro team</a></p>
+    <p>German: Translated by Fabian</p>
+    <p>Swedish: Translated by Anders Branderud</p>
+  </div>
+</div>
+
+<div id="push"></div>
+<footer class="footer">
+	<div class="container">
+		<div class="oh">
+			<ul class="unstyled">
+				<li><a target="_blank" href="http://twitter.com/vegankitdotcom"><div class="footer-sprite twitter">@VeganKitDotCom</div></a></li>
+				<li><a target="_blank" href="mailto:info@vegankit.com"><div class="footer-sprite mail">info@vegankit.com</div></a></li>
+				<li><a target="_blank" href="http://abolitionistapproach.com/"><div class="footer-sprite abolitionist">Abolitionist Approach</div></a></li>
+        <li style="padding-left: 37px"><a target="_blank" data-toggle="modal" href="#credits">Credits</a></li>
+			</ul>
+		</div>
+		<div class="oh hidden-phone">
+			<ul class="unstyled">
+				<li><img src="index_fichiers/dontdonate_vertical_white.png" style="float:right;"></li>			
+			</ul>
+		</div>
+		<div class="cl"></div>
+	</div>
+	
+	<!--?php include('parts/foot.php'); ?-->
+
+  <script type="text/javascript" src="index_fichiers/mailto.js"></script>
+	
+</footer> 
+
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+  
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="index_fichiers/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  
+  
+	
+	
+
+  
+  <script type="text/javascript">
+    
+
+  	$(document).ready(function() {
+  		$(window).scroll( function() {
+        if ($(window).scrollTop() > 100) {
+            $('#sticky-nav').fadeIn('slow').removeClass('visible-phone').addClass('fixed');
+            $('.span7.adjusted').addClass('compensated');
+        }
+        else {
+           $('#sticky-nav').addClass('visible-phone').removeClass('fixed').hide();
+           $('.span7.adjusted').removeClass('compensated');
+        }
+    	});
+    	
+    	//tooltips
+    	if ($(window).width() > 800) { //Should this be higher?
+				$('a, li, span').tooltip({
+					"placement":"bottom",
+					"selector":"",
+					delay:{show: 100, hide: 100}
+				});
+			}
+			else {
+				document.title = 'VeganKit'; // For iPhone homescreen title.
+			}
+			
+			
+  var vids = [
+    'http://www.youtube.com/embed/Z7Gbq3lkKwY'
+    , 'http://www.youtube.com/embed/T5pDU1yMWMw'
+    , 'http://www.youtube.com/embed/l08as25vCVc'
+    , 'http://player.vimeo.com/video/5013428?color=ffffff'
+    , 'http://www.youtube.com/embed/3DKaSaK0usc'
+    , 'http://www.youtube.com/embed/4dssK8SitDA'
+    , 'http://www.youtube.com/embed/BwHH6TRvsXw'
+    , 'http://www.youtube.com/embed/fW8amMCVAJQ'
+    , 'http://www.youtube.com/embed/jRAEgQI9U8I'
+  ]
+  var loadVid = function(i) {
+    setTimeout(function() {
+      $('#vid' + i).attr('src', vids[i])    
+    }, ( 1000 * i ))
+  }
+  for ( var i = 0; i < vids.length; i++ ) { loadVid(i) } 
+
+			
+  	});
+  	
+  	setTimeout(function(){
+	  	$('.loader').addClass('offToSide');
+  	}, 1000);
+
+    // Sloppy fix to twitter bs
+    setTimeout(function() {
+      $('.twitterBox').css('overflow', 'hidden')
+    }, 4000)
+  	
+  	//Wait for window load
+		$(window).load(function() {
+	   	$('.loader').stop().animate({"top" : "-200px"}, 2000);
+	   	$('.youtube').show();	
+		});
+
+
+  </script>
+  
+	<!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+		/*
+		var __insp = __insp || [];
+		__insp.push(['wid', 2077826011]);
+		(function() {
+			var a = window.onload;
+			function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspect_nojquery/2077826011.js'; document.getElementsByTagName("head")[0].appendChild(insp); }
+			window.onload = (typeof window.onload != 'function') ? __ldinsp : function() { a(); __ldinsp(); };
+		})();
+		*/
+	</script>
+	<!-- End Inspectlet Embed Code -->
+	
+  <script src="index_fichiers/bootstrap.js"></script>
+  
+  <!-- end scripts -->
+
+
+  <script type="text/javascript">
+		    // When ready...
+		window.addEventListener("load",function() {
+			// Set a timeout...
+			setTimeout(function(){
+				// Hide the address bar!
+				window.scrollTo(0, 1);
+			}, 0);
+		});
+  </script>
+  
+  
+  <script>
+    var _gaq=[['_setAccount','UA-1315296-18'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+<script type="text/javascript">_StatHat.push(['_trackCount', '-Z4exjxEhG8NrnSdqFeJ5yAxc1Qx', 1.0]);</script>
+ <script type="text/javascript">
+	var percentage = (navigator.language == 'en' ? 100 : 0)
+	_StatHat.push(['_trackCount', 'SxsBxL6kP0_lNdREpgWCaCBFOTlJ', percentage]);</script> 
+
+
+<iframe style="display: none;" allowtransparency="true" scrolling="no" id="rufous-sandbox" frameborder="0"></iframe></body></html>
